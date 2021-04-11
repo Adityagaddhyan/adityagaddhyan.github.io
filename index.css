@@ -557,3 +557,25 @@ body {
     url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80");
   --background-background: #fff;
 }
+button {
+  border-radius: 0%;
+  padding: 20 10 20 10;
+  box-shadow: none;
+  text-transform: uppercase;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  /* background: #ffffff; */
+  background: none;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  /* text-decoration: none; */
+  transition-duration: 0.5s;
+  transition-property: color, background-color;
+}
+button:hover {
+  color: black;
+  background: white;
+}
