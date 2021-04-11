@@ -579,3 +579,9 @@ button:hover {
   color: black;
   background: white;
 }
+.paragraph{
+  margin: 20px;
+  width: 60%;
+  text-align: justify;
+  text-justify: inter-word;
+}
